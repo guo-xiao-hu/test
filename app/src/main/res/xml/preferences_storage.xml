@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <org.thoughtcrime.securesms.preferences.widgets.Mp02CommonPreferenceCategory
+        android:key="storage_limits"
+        android:title="@string/preferences_chats__message_history">
+
+        <org.thoughtcrime.securesms.preferences.widgets.Mp02CommonPreference
+            android:key="settings.keep_messages_duration"
+            android:title="@string/preferences__keep_messages"
+            tools:summary="@string/preferences_storage__forever" />
+
+        <org.thoughtcrime.securesms.preferences.widgets.Mp02CommonPreference
+            android:inputType="number"
+            android:key="pref_trim_length"
+            android:title="@string/preferences__conversation_length_limit"
+            tools:summary="None" />
+
+        <org.thoughtcrime.securesms.preferences.widgets.Mp02CommonPreference
+            android:key="pref_storage_clear_message_history"
+            android:title="@string/preferences__clear_message_history" />
+
+    </org.thoughtcrime.securesms.preferences.widgets.Mp02CommonPreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <org.thoughtcrime.securesms.preferences.widgets.Mp02CommonPreferenceCategory android:title="" />
+
+    <org.thoughtcrime.securesms.preferences.widgets.Mp02CommonPreference android:title="@string/preferences_chats__media_auto_download" />
+
+    <org.thoughtcrime.securesms.preferences.widgets.Mp02CommonPreferenceCategory android:title="@string/preferences_chats__when_using_mobile_data" />
+
+    <org.thoughtcrime.securesms.preferences.widgets.Mp02CommonPreference
+        android:key="pref_mobile_images"
+        android:title="@string/arrays__images" />
+
+    <org.thoughtcrime.securesms.preferences.widgets.Mp02CommonPreference
+        android:key="pref_mobile_audio"
+        android:title="@string/arrays__audio" />
+
+    <org.thoughtcrime.securesms.preferences.widgets.Mp02CommonPreference
+        android:key="pref_mobile_video"
+        android:title="@string/arrays__video" />
+
+    <org.thoughtcrime.securesms.preferences.widgets.Mp02CommonPreference
+        android:key="pref_mobile_documents"
+        android:title="@string/arrays__documents" />
+
+    <org.thoughtcrime.securesms.preferences.widgets.Mp02CommonPreferenceCategory android:title="@string/preferences_chats__when_using_wifi" />
+
+    <org.thoughtcrime.securesms.preferences.widgets.Mp02CommonPreference
+        android:key="pref_wifi_images"
+        android:title="@string/arrays__images" />
+
+    <org.thoughtcrime.securesms.preferences.widgets.Mp02CommonPreference
+        android:key="pref_wifi_audio"
+        android:title="@string/arrays__audio" />
+
+    <org.thoughtcrime.securesms.preferences.widgets.Mp02CommonPreference
+        android:key="pref_wifi_video"
+        android:title="@string/arrays__video" />
+
+    <org.thoughtcrime.securesms.preferences.widgets.Mp02CommonPreference
+        android:key="pref_wifi_documents"
+        android:title="@string/arrays__documents" />
+
+    <org.thoughtcrime.securesms.preferences.widgets.Mp02CommonPreferenceCategory android:title="@string/preferences_chats__when_roaming" />
+
+    <org.thoughtcrime.securesms.preferences.widgets.Mp02CommonPreference
+        android:key="pref_roaming_images"
+        android:title="@string/arrays__images" />
+
+    <org.thoughtcrime.securesms.preferences.widgets.Mp02CommonPreference
+        android:key="pref_roaming_audio"
+        android:title="@string/arrays__audio" />
+
+    <org.thoughtcrime.securesms.preferences.widgets.Mp02CommonPreference
+        android:key="pref_roaming_video"
+        android:title="@string/arrays__video" />
+
+    <org.thoughtcrime.securesms.preferences.widgets.Mp02CommonPreference
+        android:key="pref_roaming_documents"
+        android:title="@string/arrays__documents" />
+</PreferenceScreen>
